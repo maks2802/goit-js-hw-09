@@ -1,0 +1,55 @@
+.main-title {
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.feedback-form {
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.feedback-form-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.feedback-form-input,
+.feedback-form-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 20px;
+}
+
+.feedback-form-input:hover,
+.feedback-form-textarea:hover {
+    border-color: #333;
+}
+
+.feedback-form-input:focus,
+.feedback-form-textarea:focus {
+    border-color: #000;
+}
+
+.feedback-form-btn {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feedback-form-btn:hover {
+    background-color: #357ABD;
+}
